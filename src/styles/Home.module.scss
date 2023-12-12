@@ -1,0 +1,38 @@
+@import "styles/_variables.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .reloadButton {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #DA0037;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .reloadButton:hover {
+    background-color: #900026;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px;
+      .title {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
